@@ -7,7 +7,7 @@ import tpic1 from "./pic1.png";
 const Home = () => {
   const [boxes, setBoxes] = useState([
     {
-      title: "",
+      title: "CREATIVES",
       sr: { tpic1 },
       leftInsta: "",
       midInsta: "",
@@ -21,7 +21,7 @@ const Home = () => {
       id: 1,
     },
     {
-      title: "",
+      title: "EVENTS",
       sr: { tpic1 },
       leftInsta: "",
       midInsta: "",
@@ -58,6 +58,7 @@ const Home = () => {
               />
             </div>
           </div>
+          <p class="teamName">{box.title}</p>
         </div>
       ))}
     </div>
