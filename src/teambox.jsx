@@ -1,11 +1,12 @@
 import React from "react";
-import $ from "jquery";
 
-const piC1 = new URL("./pic1.png", import.meta.url);
-const diaframe = new URL("./diaframe.png", import.meta.url);
-const inst = new URL("./inst.png", import.meta.url);
-const link = new URL("./link.png", import.meta.url);
-const twit = new URL("./twit.png", import.meta.url);
+const piC1 = new URL("./images/pic1.png", import.meta.url);
+const diaframe = new URL("./images/diaframe.png", import.meta.url);
+const inst = new URL("./images/inst.png", import.meta.url);
+const link = new URL("./images/link.png", import.meta.url);
+const twit = new URL("./images/twit.png", import.meta.url);
+const LBolt = new URL("./images/l-bolt.png", import.meta.url);
+const RBolt = new URL("./images/r-bolt.png", import.meta.url);
 
 const Teambox = (props) => {
   const leftInsta = props.leftInsta;
@@ -20,8 +21,9 @@ const Teambox = (props) => {
   return (
     <div className="boxes">
       <img src={piC1} className="bgpic" />
+      <img src={LBolt} className="l-bolt" alt="" />
+      <img src={RBolt} className="r-bolt" alt="" />
       <div className="forHover">
-        <div className="fH" />
         <div className="fH">
           <div class="dialogue">
             <img src={diaframe} alt="diaframe" className="diaframe" />

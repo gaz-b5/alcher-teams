@@ -2,7 +2,7 @@ import "./index.css";
 import { useState } from "react";
 import Teambox from "./teambox";
 
-import tpic1 from "./pic1.png";
+import tpic1 from "./images/pic1.png";
 
 const Home = () => {
   const [boxes, setBoxes] = useState([
